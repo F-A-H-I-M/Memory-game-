@@ -104,7 +104,7 @@ document.getElementById("winner").innerHTML=`1st player's turn`
 
 
 time2=1    
-},8000)
+},10000)
 as=1
 }
 
