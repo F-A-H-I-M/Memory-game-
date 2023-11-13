@@ -100,11 +100,11 @@ document.getElementById(id).src="template.jpg"
 i++  
 document.getElementById("winner").innerHTML=`1st player's turn`
  
-}},5000)                                                                            
+}},3000)                                                                            
 
 
 time2=1    
-},10000)
+},15000)
 as=1
 }
 
