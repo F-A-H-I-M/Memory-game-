@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    
+    }  
+    
+    h1{
+    text-align:center;
+    background-color:tomato;
+    color:white;
+    
+    }  
+    
+    #div{
+    background-color:tomato;
+    display:grid;
+    grid-template-columns:auto auto auto auto auto;                 
+    border:solid 0.1em white;     
+    }
+   .elements{
+    
+    border:solid 0.1em white;    
+    text-align:center;
+    padding:0.2em;
+    padding-bottom:0;
+    }
+    
+    #info{
+    
+    text-align:center;
+    
+    }
+    
+    #start{
+    
+    margin:2em;
+    padding:0.2em 0.5em;
+    }  
+    
+    .img{
+    height:4em;
+    width:100%;    
+    }      
+    #head{
+    
+    display:grid;
+    grid-template-columns:auto auto auto;                                
+    }
+    #st{
+    color:tomato;
+    font-size:1.3em;    
+    }
+    #nd{
+    color:tomato;
+    font-size:1.3em;  
+    text-align:right  
+    }
+    #number{
+    color:red;
+    font-size:1.3em;  
+    text-align:center;     
+    }
+    #start{
+    padding:0.5em 1em;
+    font-size:1.3em;
+    background-color:tomato;
+    border:solid 0.1em white;     
+    }
+    #winner{
+    padding:0.5em 0.5em;
+    font-size:1.5em;
+    color:white;
+    background-color:tomato;
+    border:solid 0.1em white;      
+    }
+    </style>
+    
+    
+    
+</head>
+<body>
+<hedder>
+<h1>Memory Game</h1>  
+  
+<div id="head">
+    
+  <p id="st">player1</p>  
+ 
+  <p id="number">0:0</p>  
+  
+  <p id="nd">player2</p>  
+    
+</div>
+
+    
+</hedder>
+
+
+<main>
+ 
+ <div id="div">
+
+  <div id="item1" class="elements">   
+   <img class="img" id="img1" src="template.jpg">  
+  </div>
+  <div id="item2" class="elements">
+   <img class="img" id="img2" src="template.jpg">     
+  </div>
+  <div id="item3" class="elements">
+   <img class="img" id="img3" src="template.jpg">     
+  </div>
+  <div id="item4" class="elements">
+   <img class="img" id="img4" src="template.jpg">     
+  </div>
+  <div id="item5" class="elements">
+   <img class="img" id="img5" src="template.jpg">     
+  </div>
+  <div id="item6" class="elements">
+   <img class="img" id="img6" src="template.jpg">     
+  </div>
+  <div id="item7" class="elements">
+   <img class="img" id="img7" src="template.jpg">      
+  </div>
+  <div id="item8" class="elements">
+   <img class="img" id="img8" src="template.jpg">     
+  </div>
+  <div id="item9" class="elements">
+   <img class="img" id="img9" src="template.jpg">     
+  </div>
+  <div id="item10" class="elements">
+   <img class="img" id="img10" src="template.jpg">     
+  </div>
+  <div id="item11" class="elements">
+   <img class="img" id="img11" src="template.jpg">      
+  </div>
+  <div id="item12" class="elements">
+   <img class="img" id="img12" src="template.jpg">     
+  </div>
+  <div id="item13" class="elements">
+   <img class="img" id="img13" src="template.jpg">    
+  </div>
+  <div id="item14" class="elements">
+   <img class="img" id="img14" src="template.jpg">    
+  </div>
+  <div id="item15" class="elements">
+   <img class="img" id="img15" src="template.jpg">     
+  </div>
+  <div id="item16" class="elements">
+   <img class="img" id="img16" src="template.jpg">  
+  </div> 
+  <div id="item17" class="elements">
+   <img class="img" id="img17" src="template.jpg">    
+  </div>
+  <div id="item18" class="elements">
+   <img class="img" id="img18" src="template.jpg">    
+  </div>
+  <div id="item19" class="elements">
+   <img class="img" id="img19" src="template.jpg">     
+  </div>
+  <div id="item20" class="elements">
+   <img class="img" id="img20" src="template.jpg">   
+  </div>
+   <div id="item21" class="elements">
+   <img class="img" id="img21" src="template.jpg">      
+  </div>
+  <div id="item22" class="elements">
+   <img class="img" id="img22" src="template.jpg">     
+  </div>
+  <div id="item23" class="elements">
+   <img class="img" id="img23" src="template.jpg">    
+  </div>
+  <div id="item24" class="elements">
+   <img class="img" id="img24" src="template.jpg">    
+  </div>
+  <div id="item25" class="elements">
+   <img class="img" id="img25" src="template.jpg">     
+  </div>
+  <div id="item26" class="elements">
+   <img class="img" id="img26" src="template.jpg">  
+  </div> 
+  <div id="item27" class="elements">
+   <img class="img" id="img27" src="template.jpg">    
+  </div>
+  <div id="item28" class="elements">
+   <img class="img" id="img28" src="template.jpg">    
+  </div>
+  <div id="item29" class="elements">
+   <img class="img" id="img29" src="template.jpg">     
+  </div>
+  <div id="item30" class="elements">
+   <img class="img" id="img30" src="template.jpg">   
+  </div>
+  
+ </div>
+  
+  
+ <div id="info">
+  <div id="winner"></div> 
+  
+ <button id="start" type="button" onclick="start()">start</button>
+    
+ </div>   
+    
+  
+
+    
+</main>
+
+
+
+
+<footer>
+    
+    
+    
+</footer>
+
+
+
+
+
+
+    
+    
+    
+    
+<script src="memory.js"></script> 
+</body>
+</html>
